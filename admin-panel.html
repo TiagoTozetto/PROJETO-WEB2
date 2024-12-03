@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Administração do Portfólio</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projetos</a></li>
+        <li><a href="skills.html">Habilidades</a></li>
+        <li><a href="admin.html">Admin</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="admin-container">
+    <h1>Painel de Administração</h1>
+    <form id="admin-form">
+      <h2>Editar Informações Pessoais</h2>
+      <label for="name">Nome Completo:</label>
+      <input type="text" id="name" name="name">
+
+      <label for="bio">Biografia Breve:</label>
+      <textarea id="bio" name="bio"></textarea>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email">
+
+      <label for="phone">Telefone:</label>
+      <input type="tel" id="phone" name="phone">
+
+      <label for="linkedin">LinkedIn:</label>
+      <input type="url" id="linkedin" name="linkedin">
+
+      <label for="github">GitHub:</label>
+      <input type="url" id="github" name="github">
+
+      <h2>Editar Projetos</h2>
+      
+      <label for="project-title">Título do Projeto:</label>
+      <input type="text" id="project-title" name="project-title">
+
+      <label for="project-desc">Descrição do Projeto:</label>
+      <textarea id="project-desc" name="project-desc"></textarea>
+
+      <label for="project-image">Link para Imagem do Projeto:</label>
+      <input type="url" id="project-image" name="project-image">
+
+      <h2>Editar Habilidades</h2>
+      <label for="skills">Habilidades:</label>
+      <input type="text" id="skills" name="skills">
+
+      <button type="submit">Salvar Alterações</button>
+    </form>
+  </div>
+  <script src="js/scripts.js"></script>
+</body>
+</html>

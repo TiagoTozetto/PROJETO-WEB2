@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Administração do Portfólio</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projetos</a></li>
+        <li><a href="skills.html">Habilidades</a></li>
+        <li><a href="admin.html">Admin</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="admin-container">
+    <h1>Painel de Administração</h1>
+    <form id="login-form">
+      <label for="username">Usuário:</label>
+      <input type="text" id="username" name="username" required>
+
+      <label for="password">Senha:</label>
+      <input type="password" id="password" name="password" required>
+
+      <button type="submit">Login</button>
+    </form>
+    <div id="login-error" style="color: red; display: none;">Credenciais inválidas. Tente novamente.</div>
+  </div>
+  <script src="js/scripts.js"></script>
+  <script src="js/login.js"></script>
+</body>
+</html>
